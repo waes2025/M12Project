@@ -1,0 +1,88 @@
+(Mod 12) Assignment
+[এই প্রজেক্টটি করার জন্য এবং জমা দেওয়ার আগে অবশ্যই প্রজেক্টের লাইভ ক্লাসটি দেখুন।]
+
+Assignment : 
+
+•  If a user attempts more than 10 times between the start date and end date, the user must not be allowed to log in for the quiz.
+
+•  Show how many times a user has successfully logged in for the quiz.
+
+ 
+
+1.Login System
+
+o	Users must log in with their name and email.
+
+o	Login data is saved in LocalStorage.
+
+2.	Date Range Validation
+
+o	The quiz can only be taken within a specific date range (e.g., 2025-09-15 to 2025-09-25).
+
+o	If attempted outside this range, 50% of the marks will be deducted.
+
+3.	Quiz Duration (Timer)
+
+o	Each quiz has a time limit of 20 minutes.
+
+o	A countdown timer will be displayed.
+
+o	When time runs out, the quiz will automatically be submitted and redirect to the result page.
+
+4.	Attempts Limit
+
+o	A maximum of 10 attempts is allowed.
+
+o	Attempt count is stored in LocalStorage.
+
+o	Once the limit is reached, the user cannot take the quiz again.
+
+5.	Questions & Answering
+
+o	Total of 10 questions.
+
+o	Multiple-choice format (radio buttons).
+
+o	Score is calculated based on correct answers.
+
+6.	Result Page
+
+o	After submission, the score is displayed.
+
+o	Attempt count is also shown (e.g., Attempt 3/10).
+
+7.	LocalStorage Support
+
+o	Stores user data (login info).
+
+o	Saves quiz attempt count.
+
+o	Saves quiz results.
+
+o	Progress/data is not lost on refresh.
+
+8.	Responsive Design
+
+o	Works smoothly on mobile, tablet, and desktop devices.
+
+9.	Auto Submit
+
+o	When the timer ends, the quiz auto-submits and results are shown.
+
+10.	Logout Option
+
+•	On logout, LocalStorage is cleared.
+
+•	The user can log in again.
+
+### জমাদানের নির্দেশাবলী: 
+
+•	১. একটি নতুন GitHub রিপোজিটরি তৈরি করুন এবং উপরের ফোল্ডার ও ফাইল কাঠামো অনুসরণ করুন।
+
+•	২. vehicles.json ফাইলে ২/৩টি ভেহিকল থাকতে হবে। 
+
+•	৩. শুধুমাত্র GitHub রিপোজিটরি লিঙ্ক জমা দিতে হবে। 
+
+•	৪. ডেডলাইনের পরে আপনার কোডে কোনো পরিবর্তন করা যাবে না। 
+
+•	৫. অ্যাসাইনমেন্ট পেজের Upload File সেকশনে কোনো ফাইল আপলোড করার প্রয়োজন নেই।
